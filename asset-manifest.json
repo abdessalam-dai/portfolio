@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.53391e8a.css",
-    "main.js": "/static/js/main.3dd3bbf9.js",
+    "main.js": "/static/js/main.80d7955e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/1.png": "/static/media/1.40f1de1c5b9092a2d85d.png",
     "static/media/8.jpg": "/static/media/8.e7a3045d11b1e3bde7eb.jpg",
@@ -9,11 +9,11 @@
     "static/media/3.jpg": "/static/media/3.3e6e60a13f9b58b01256.jpg",
     "static/media/4.jpg": "/static/media/4.f77193a7cedc88f63965.jpg",
     "static/media/7.jpg": "/static/media/7.2d56946358cd9c104437.jpg",
+    "static/media/CV Abdessalam Dai _ FR.pdf": "/static/media/CV Abdessalam Dai _ FR.b2b2301a1924100a15a3.pdf",
     "static/media/6.jpg": "/static/media/6.b280d0895f3fbb8bd70f.jpg",
+    "static/media/CV Abdessalam Dai _ EN.pdf": "/static/media/CV Abdessalam Dai _ EN.729f976b8422d96ee72a.pdf",
     "static/media/5.jpg": "/static/media/5.bfae8a006f520676b0e1.jpg",
     "static/media/1.jpg": "/static/media/1.58235a69993700376c70.jpg",
-    "static/media/CV _ Abdessalam Dai _ EN.pdf": "/static/media/CV _ Abdessalam Dai _ EN.f054fdca9b95979a1e72.pdf",
-    "static/media/CV _ Abdessalam Dai _ FR.pdf": "/static/media/CV _ Abdessalam Dai _ FR.f054fdca9b95979a1e72.pdf",
     "static/media/8.png": "/static/media/8.c79d4da3b1d7c5ae9844.png",
     "static/media/11.png": "/static/media/11.8cde83bf2ceb32236d1e.png",
     "static/media/6.png": "/static/media/6.08080ac63868693f6dc1.png",
@@ -27,11 +27,11 @@
     "static/media/9.png": "/static/media/9.94293cbb91154534b515.png",
     "index.html": "/index.html",
     "main.53391e8a.css.map": "/static/css/main.53391e8a.css.map",
-    "main.3dd3bbf9.js.map": "/static/js/main.3dd3bbf9.js.map",
+    "main.80d7955e.js.map": "/static/js/main.80d7955e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53391e8a.css",
-    "static/js/main.3dd3bbf9.js"
+    "static/js/main.80d7955e.js"
   ]
 }
