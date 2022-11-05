@@ -1,7 +1,7 @@
 import React from "react";
 
-import CV_FR from "../assets/CV/CV _ Abdessalam Dai _ FR.pdf";
-import CV_EN from "../assets/CV/CV _ Abdessalam Dai _ EN.pdf";
+import CV_FR from "../assets/CV/CV Abdessalam Dai _ FR.pdf";
+import CV_EN from "../assets/CV/CV Abdessalam Dai _ EN.pdf";
 import {useState} from "react";
 
 const Navbar = () => {
