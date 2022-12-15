@@ -90,7 +90,8 @@ const Projects = () => {
     const projects = [
         {
             name: "Chexam",
-            description: "Chexam is a Web application which was developed during the Code-Rally hackathon " +
+            description: "Chexam is a combination of two words: Check + Exam. " +
+                "It was developed during the Code-Rally hackathon " +
                 "at ESTIN Béjaia, where my team has won the first place. " +
                 "Chexam is a Web application where teachers can publish copies of exams. " +
                 "It provides students with fast and unlimited access to their scanned copies, " +
