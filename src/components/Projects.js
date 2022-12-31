@@ -52,8 +52,9 @@ const Project = (props) => {
     return (
         <div className={"project bg-[#132648] shadow-md p-7"}>
             <div
-                className={`flex flex-col space-y-5 ${props.keyNum % 2 === 1 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center project-body`}>
+                className={`flex flex-col space-y-5 ${props.keyNum % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center project-body`}>
                 <div className={"w-full md:w-1/2"}>
+                    {props.project.images.length > 0 &&
                     <Carousel cols={1} rows={1} gap={10} showDots={true} dotColorActive={'#64ffda'} loop>
                         {props.project.images.map((image, i) =>
                             <Carousel.Item key={i} className={"flex justify-center items-center"}>
@@ -61,6 +62,7 @@ const Project = (props) => {
                             </Carousel.Item>
                         )}
                     </Carousel>
+                    }
                 </div>
                 <div className={"flex flex-col space-y-5 w-full md:w-1/2 px-0 md:px-8"}>
                     <div className={"project-name text-2xl font-semibold text-right "}>{props.project.name}</div>
@@ -141,6 +143,17 @@ const Projects = () => {
             technologies: ["Python", "Pandas", "Seaborn", "Matplotlib"],
             images: [
                 tmdb1, tmdb2, tmdb3, tmdb4, tmdb5
+            ]
+        },
+        {
+            name: "Library management system",
+            description: "We designed and implemented a database to store and manage information on a wide range of library resources, as well as user information for both library staff and members. We also developed a Python console application to allow for the management of library activities, including cataloging, consultations, user management, and loans. Using the database, we created statistics on borrowed documents, which allowed us to generate lists of popular documents and gain insights into library usage patterns. ",
+            link: "#",
+            linkDisplay: "No link",
+            gitHubLink: "https://gitlab.utc.fr/daiabdes/nf18_td3_g2_a22",
+            technologies: ["Python", "PostgreSQL", "UML"],
+            images: [
+
             ]
         },
         {
