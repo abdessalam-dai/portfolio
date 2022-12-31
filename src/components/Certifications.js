@@ -30,6 +30,10 @@ const Certifications = () => {
     const certificates = {
         mlAndDl: [
             {
+                name: "Data Analyst Nanodegree",
+                link: "https://graduation.udacity.com/confirm/GYRKEHLZ"
+            },
+            {
                 name: "Machine Learning",
                 link: "https://www.coursera.org/account/accomplishments/certificate/JW3UV7L8RKGD"
             },

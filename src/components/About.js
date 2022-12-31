@@ -19,11 +19,9 @@ const About = () => {
                     <div className={"ml-10 gradient-color-1 text-5xl text-[#e1e4f0] font-semibold"}>Abdessalam Dai</div>
                     <div className={"ml-10 text-md text-gray-300 font-semibold"}>COMPUTER SCIENCE STUDENT - 3rd Year</div>
                     <p className={"mt-6 leading-8 text-[#ccd6f6] text-lg"}>
-                        I'm currently in my first year of Computer Science of the Engineering Cycle
-                        at the <a href={"https://www.utc.fr/"} className={"text-cpgreen-50"} target={"_blank"} rel="noreferrer">University of Technology of Compiègne</a>,
-                        I am looking for an internship as an assistant engineer
-                        in Data Science/ Machine Learning/ Artificial Intelligence/ Software Engineering
-                        for a period of 6 months starting in September 2023.
+                        I'm currently in my third year of Computer Science at the
+                        <a href={"https://www.utc.fr/"} className={"text-cpgreen-50"} target={"_blank"} rel="noreferrer"> University of Technology of Compiègne</a>.
+                         I'm a driven individual who has a passion for learning about AI and data science. I have a lot of experience in web development. I can effectively work in a team and have strong problem-solving abilities.
                     </p>
                 </div>
                 <div className={"hidden md:block text-center w-full"}>

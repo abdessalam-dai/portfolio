@@ -27,7 +27,7 @@ const SkillSet = (props) => {
 const Skills = () => {
     const skills = {
         dataAnalysisAndML: [
-            {name: "Python / Pandas / NumPy"},
+            {name: "Pandas / NumPy / Matplotlib / Seaborn"},
             {name: "R"}
         ],
         frontEnd: [
@@ -37,10 +37,9 @@ const Skills = () => {
         ],
         backEnd: [
             {name: "Django"},
-            {name: "PHP"},
         ],
         dataBases: [
-            {name: "SQL / Sqlite"},
+            {name: "SQL / Sqlite / PostgreSQL"},
         ],
         programming: [
             {name: "Python"},
@@ -50,7 +49,8 @@ const Skills = () => {
         tools: [
             {name: "Git / GitHub"},
             {name: "Jetbrains"},
-            {name: "Jupyter"},
+            {name: "Anaconda / Jupyter Notebook"},
+            {name: "LaTeX"},
             {name: "Suite Office"},
             {name: "Notion"},
         ]

@@ -5,6 +5,21 @@ import {faArrowUpRightFromSquare, faCode} from '@fortawesome/free-solid-svg-icon
 
 import Carousel from 'better-react-carousel'
 
+import tmdb1 from "../assets/imgs/projects/TMDb/1.png";
+import tmdb2 from "../assets/imgs/projects/TMDb/2.png";
+import tmdb3 from "../assets/imgs/projects/TMDb/3.png";
+import tmdb4 from "../assets/imgs/projects/TMDb/4.png";
+import tmdb5 from "../assets/imgs/projects/TMDb/5.png";
+
+import weratedogs1 from "../assets/imgs/projects/WeRateDogs/1.png";
+import weratedogs2 from "../assets/imgs/projects/WeRateDogs/2.png";
+
+import pisa1 from "../assets/imgs/projects/PISA2012/1.png";
+import pisa2 from "../assets/imgs/projects/PISA2012/2.png";
+import pisa3 from "../assets/imgs/projects/PISA2012/3.png";
+import pisa4 from "../assets/imgs/projects/PISA2012/4.png";
+import pisa5 from "../assets/imgs/projects/PISA2012/5.png";
+
 
 import vsfsd1 from "../assets/imgs/projects/vsfsd/1.jpg";
 import vsfsd2 from "../assets/imgs/projects/vsfsd/2.png";
@@ -29,8 +44,8 @@ import chexam6 from "../assets/imgs/projects/chexam/6.jpg";
 import chexam7 from "../assets/imgs/projects/chexam/7.jpg";
 import chexam8 from "../assets/imgs/projects/chexam/8.jpg";
 
+
 import mars_rover1 from "../assets/imgs/projects/mars_rover/1.png";
-// import mars_rover2 from "../assets/imgs/projects/mars_rover/2.png";
 
 
 const Project = (props) => {
@@ -69,7 +84,7 @@ const Project = (props) => {
                            target={"_blank"}
                            rel="noreferrer"
                            className={"btn-slide mt-1 py-2 px-4 text-sm border-[1px] border-cpgreen-50 font-medium"}>
-                            Code <FontAwesomeIcon className={"ml-1"} icon={faCode}/>
+                            GitHub <FontAwesomeIcon className={"ml-1"} icon={faCode}/>
                         </a>
                     </div>
                 </div>
@@ -88,6 +103,46 @@ const Project = (props) => {
 
 const Projects = () => {
     const projects = [
+        {
+            name: "Data Analysis: PISA survey",
+            description: "In addition to examining differences between countries and genders, I also analyzed the effects of parental companionship on student success in the PISA survey dataset. I looked at how students with different levels of parental involvement performed on various measures of skills and knowledge, and how these performance differences varied by country and gender.",
+            link: "#",
+            linkDisplay: "No link",
+            gitHubLink: "https://github.com/abdessalam-dai/PISA2012",
+            technologies: ["Python", "Pandas", "Seaborn", "Matplotlib"],
+            images: [
+                pisa1, pisa2, pisa3, pisa4, pisa5
+            ]
+        },
+        {
+            name: "Data Wrangling: WeRateDogs Twitter",
+            description: "The WeRateDogs dataset contains information about tweets featuring dog ratings and photos. Additional data was collected using the Requests and Tweepy libraries and was then cleaned and analyzed using various techniques to generate insights and conclusions. These insights can be used to answer questions about dog ratings on Twitter, including which breeds are most popular and which ratings are most common.",
+            link: "#",
+            linkDisplay: "No link",
+            gitHubLink: "https://github.com/abdessalam-dai/WeRateDogs-Twitter",
+            technologies: ["Python", "Pandas", "Seaborn", "Matplotlib", "Requests", "Tweepy"],
+            images: [
+                weratedogs1, weratedogs2
+            ]
+        },
+        {
+            name: "Data Investigation: TMDb movies",
+            description: "I performed necessary data cleaning on the dataset, " +
+                "and then analyzed it to answer a variety of questions. " +
+                "These included movie release trends," +
+                "actor and director prevalence, production companies, genre popularity and success, " +
+                "and relationships between different factors. " +
+                "Through this analysis, " +
+                "I was able to gain a better understanding of " +
+                "the movie industry and identify trends and patterns within the data.",
+            link: "#",
+            linkDisplay: "No link",
+            gitHubLink: "https://github.com/abdessalam-dai/TMDb-Movies",
+            technologies: ["Python", "Pandas", "Seaborn", "Matplotlib"],
+            images: [
+                tmdb1, tmdb2, tmdb3, tmdb4, tmdb5
+            ]
+        },
         {
             name: "Chexam",
             description: "Chexam is a combination of two words: Check + Exam. " +

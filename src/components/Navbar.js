@@ -1,7 +1,5 @@
 import React from "react";
 
-import CV_FR from "../assets/CV/CV Abdessalam Dai _ FR.pdf";
-import CV_EN from "../assets/CV/CV Abdessalam Dai _ EN.pdf";
 import {useState} from "react";
 
 const Navbar = () => {
@@ -47,28 +45,28 @@ const Navbar = () => {
                                    className={'btn-underline text-md py-2 px-3 font-medium'}>Contact</a>
                             </li>
                         </ul>
-                        <div className={"relative"}>
-                            <button onClick={handleOpenCVMenu}
-                                    className={'py-2 px-4 text-md border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium'}>CV
-                            </button>
-                            {
-                                open &&
-                                <div className={"absolute top-12 right-0 bg-[#132648] p-7 rounded-md shadow-md"}>
-                                    <a href={CV_EN}
-                                       target={"_blank"}
-                                       rel={"noreferrer"}
-                                       className={"btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>
-                                        English
-                                    </a>
-                                    <a href={CV_FR}
-                                       target={"_blank"}
-                                       rel={"noreferrer"}
-                                       className={"ml-3 btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>
-                                        French
-                                    </a>
-                                </div>
-                            }
-                        </div>
+                        {/*<div className={"relative"}>*/}
+                        {/*    <button onClick={handleOpenCVMenu}*/}
+                        {/*            className={'py-2 px-4 text-md border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium'}>CV*/}
+                        {/*    </button>*/}
+                        {/*    {*/}
+                        {/*        open &&*/}
+                        {/*        <div className={"absolute top-12 right-0 bg-[#132648] p-7 rounded-md shadow-md"}>*/}
+                        {/*            <a href={CV_EN}*/}
+                        {/*               target={"_blank"}*/}
+                        {/*               rel={"noreferrer"}*/}
+                        {/*               className={"btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>*/}
+                        {/*                English*/}
+                        {/*            </a>*/}
+                        {/*            <a href={CV_FR}*/}
+                        {/*               target={"_blank"}*/}
+                        {/*               rel={"noreferrer"}*/}
+                        {/*               className={"ml-3 btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>*/}
+                        {/*                French*/}
+                        {/*            </a>*/}
+                        {/*        </div>*/}
+                        {/*    }*/}
+                        {/*</div>*/}
                     </div>
                 </div>
                 {/* Mobile Navbar */}
@@ -124,21 +122,21 @@ const Navbar = () => {
                             </a>
                         </li>
                     </ul>
-                    <div>
-                        <div className={"mb-3 text-lg text-gray-300 font-semibold"}>Download my CV</div>
-                        <a href={CV_EN}
-                           target={"_blank"}
-                           rel={"noreferrer"}
-                           className={"btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>
-                            English
-                        </a>
-                        <a href={CV_FR}
-                           target={"_blank"}
-                           rel={"noreferrer"}
-                           className={"ml-3 btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>
-                            French
-                        </a>
-                    </div>
+                    {/*<div>*/}
+                    {/*    <div className={"mb-3 text-lg text-gray-300 font-semibold"}>Download my CV</div>*/}
+                    {/*    <a href={CV_EN}*/}
+                    {/*       target={"_blank"}*/}
+                    {/*       rel={"noreferrer"}*/}
+                    {/*       className={"btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>*/}
+                    {/*        English*/}
+                    {/*    </a>*/}
+                    {/*    <a href={CV_FR}*/}
+                    {/*       target={"_blank"}*/}
+                    {/*       rel={"noreferrer"}*/}
+                    {/*       className={"ml-3 btn-slide py-2 px-3 text-sm border-[1px] text-cpgreen-50 border-cpgreen-50 font-medium"}>*/}
+                    {/*        French*/}
+                    {/*    </a>*/}
+                    {/*</div>*/}
                 </div>
             </nav>
         </>
